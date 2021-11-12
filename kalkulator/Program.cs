@@ -23,9 +23,9 @@ namespace kalkulator
 
             if (symbol == '+')
             {
-                Console.WriteLine("Your result: "+ plus);
+                Console.WriteLine("Your result: " + plus);
             }
-            else if(symbol =='-')
+            else if (symbol == '-')
             {
                 Console.WriteLine("Your result: " + minus);
             }
