@@ -35,7 +35,14 @@ namespace kalkulator
             }
             else if (symbol == '/')
             {
-                Console.WriteLine("Your result: " + division);
+                if (number2 == 0)
+                {
+                    Console.WriteLine("Error");
+                }
+                else
+                {
+                    Console.WriteLine("Your result: " + division);
+                }
             }
         }
     }
