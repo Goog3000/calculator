@@ -7,13 +7,13 @@ namespace kalkulator
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter first value:");
+            Console.WriteLine("Enter first number:");
             double number1 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter second value:");
+            Console.WriteLine("Enter second number:");
             double number2 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter symbol:");
+            Console.WriteLine("Enter operation:");
             char symbol = char.Parse(Console.ReadLine());
 
             double plus = number1 + number2;
